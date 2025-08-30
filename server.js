@@ -21,7 +21,7 @@ if (!process.env.DISABLE_XORIGIN) {
     next();
   });
 }
-
+//just for testing
 app.use('/public', express.static(process.cwd() + '/public'));
 
 app.route('/_api/package.json')
